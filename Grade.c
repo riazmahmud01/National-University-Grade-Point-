@@ -10,4 +10,12 @@ int main()
     {
         printf("A+");
     }
+    else if (marks >= 75 && marks < 80)
+    {
+        printf("A");
+    }
+    else if (marks >= 65 && marks < 70)
+    {
+        printf("B+");
+    }
 }
