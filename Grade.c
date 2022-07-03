@@ -6,9 +6,8 @@ int main()
     scanf("%d", &marks);
 
     // Grade Point Add
-
-
-
-
-
+    if (marks >= 80 && marks < 100)
+    {
+        printf("A+");
+    }
 }
